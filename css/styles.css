@@ -1,0 +1,191 @@
+body{
+    font-family: 'Montserrat-Black', sans-serif;
+    text-align: center;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    
+    font-family: 'Montserrat-Bold', sans-serif;    
+}
+h3{
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 4rem;
+}
+p{
+    
+    color: #8f8f8f;
+}
+
+
+/* title section */
+#title{
+    background-color: #99627A;
+    
+}
+.title-h3{
+    text-align: left;
+    color: white;
+}
+.fa-star-of-life{
+    color: #643843;
+}
+.big-h1{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 1000;
+    color: white;
+    text-align: left;
+}
+
+.container-fluid{
+    padding: 2% 10% 7%;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+.navbar{
+    padding-bottom: 4rem;
+}
+.nav-item{
+    padding: 0rem 1.25rem ;
+}
+.nav-link{
+    font-size: 1.25rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* top section */
+.download-btn{
+    border-radius: 0;
+    font-family: 'Ubuntu', sans-serif;
+    overflow: auto;
+    float: left;
+  margin-right: 0px;
+}
+.top-img{
+    width: 30rem;
+    /* width:55%; */
+    
+    position: absolute;
+    right:10rem ;
+    top:7rem;
+    
+}
+
+   /* About section */
+#features{
+    padding: 8% 15%;
+    background-color: #fff;
+    position: relative;
+    /* z-index: 1; */
+}
+
+#features h6{
+    color: #643843;
+    font-weight: bold;
+}
+#features .low-box{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border: solid black;
+    
+}
+#features .low-box h3,h4,h5,h6{
+    text-align: center;
+}
+#features .low-box .mid{
+    background: black;
+    color: #fff;
+}
+.features-box{
+    padding: 5%;
+    text-align: center;
+}
+
+
+/* testimonials sections */
+#testimonials{
+
+    background-color: #99627A;
+    color: #fff;
+}
+.carousel-item{
+    padding: 5% 12%;
+}
+.test-img{
+    width: 100%;
+}
+
+.testimonials-img{
+    width: 12%;
+    border-radius: 100%;
+    margin: 2rem;
+}
+
+
+/* Work section  */
+#works{
+    padding: 8% 7%;
+}
+#works .fa-slack{
+    font-size: 2.5rem;
+    color: #643843;
+}
+.card{
+    display: inline-block;
+}
+.card:hover{
+    transform: scale(0.9); 
+  }
+
+
+/* Media Query */
+@media (max-width:1060px){
+    .top-img{
+        position: static;
+        transform: rotate(0deg);
+        margin-top: 2rem;
+    }
+    .big-h1{
+        text-align: center;
+    }
+}
+
+
+/* call to action section */
+#cta{
+    background-color: #99627A;
+    padding: 6% 9%;
+}
+#cta .px-3{
+    background: white;
+}
+
+#cta img{
+    width: 16rem;
+}
+
+/* footer-section */
+#footer{
+    padding: 4% 7% 2%;
+}
+.footclass{
+    display: inline-block;
+    margin: 0rem 6rem;
+}
+#footer a{
+    margin: 0rem 1rem;
+    text-decoration: none;
+    color: grey;
+}
+.footer-icon{
+    color: black;
+    padding: 1.5rem 0.7rem;
+}
